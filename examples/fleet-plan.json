@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "repo": "../../example-app",
+  "backend": "warroom",
+  "kind": "droid",
+  "workers": [
+    {
+      "name": "ui",
+      "files": ["src/ui/"],
+      "task": "Implement the requested UI change. Verify the actual interaction and report skipped checks."
+    },
+    {
+      "name": "api",
+      "files": ["src/api/"],
+      "task": "Implement the matching API change with regression coverage. Stop if a shared-file edit is required."
+    }
+  ]
+}

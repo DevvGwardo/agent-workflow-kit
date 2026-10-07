@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "checks": [
+    {
+      "id": "unit-and-git-integration",
+      "phase": "implemented",
+      "command": ["python3", "-m", "unittest", "discover", "-s", "tests", "-v"],
+      "timeout_seconds": 180,
+      "expect": "\\bOK\\b"
+    },
+    {
+      "id": "cli-smoke",
+      "phase": "integrated",
+      "command": ["python3", "-m", "unittest", "discover", "-s", "tests", "-p", "test_cli.py", "-v"],
+      "timeout_seconds": 60,
+      "expect": "\\bOK\\b"
+    }
+  ]
+}

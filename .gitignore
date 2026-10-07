@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.coverage
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+*.db
+*.db-*
+*.sqlite*
+.agent-workflow/
+evidence/
+runtime/
