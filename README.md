@@ -1,5 +1,7 @@
 <div align="center">
 
+![Agent Workflow Kit: Remember, Verify, Coordinate](docs/assets/hero-banner.png)
+
 # Agent Workflow Kit
 
 **Carry trustworthy state from session → worker → verified change → release.**
@@ -29,6 +31,10 @@ actual app, and carrying parallel work through integration and release.
 | **1** | `awk-kit history` | “What happened in another agent's session, and what remains?” | Less rediscovery, better handoffs |
 | **2** | `awk-kit verify` | “Does this exact change satisfy its acceptance gates?” | Evidence instead of completion claims |
 | **3** | `awk-kit fleet` | “Who owns this work, what is blocked, and can it safely finish?” | Safer parallel work and recoverable tasks |
+
+![History finds context, Verify proves changes, and Fleet coordinates ownership across the session-to-release workflow](docs/assets/workflow-overview.png)
+
+*Conceptual workflow. Publishing and releases remain explicitly authorized.*
 
 This is **not another coding agent**, model proxy, or dashboard. It adds a small,
 agent-agnostic control layer around the tools already doing the work.
